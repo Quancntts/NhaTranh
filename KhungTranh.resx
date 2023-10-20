@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Cửa hàng Bán Tranh có rất nhiều những khung tranh nghệ thuật cho các họa sĩ và những người yêu thích nghệ thuật. Chúng tôi có các mẫu khung tranh đẹp thể hiện những phong cách phổ biến như cổ điển và hiện đại cũng như có sự kết hợp giữa hai nét đẹp ấy. Các khung tranh được thiết kế để vẽ tranh và phù hợp với rất nhiều các thể loại tranh nghệ thuật khác nhau. Quan điểm để tạo nên các khung tranh của chúng tôi là bổ sung cho tác phẩm nghệ thuật mà nó lưu giữ, thay vì làm nổi bật. Chúng tôi cung cấp nhiều kích cỡ, màu sắc và kiểu dáng để phù hợp nhất với nhu cầu và sở thích của bạn.
+
+Bạn có thể dễ dàng tìm hiểu những màu sắc phổ biến và phù hợp với khung tranh nghệ thuật vốn rất “kén chọn” này.  Những màu sắc thường được lựa chọn cho tranh nghệ thuật thường là những màu mang nhiều ý nghĩa như là màu đen, vàng, nâu và trắng. Màu đen giúp tạo nên vẻ đẹp huyền bí, quyền lực và cao sang. Màu vàng thường tạo nên nét đẹp sung túc và danh giá. Màu nâu thường tạo nên vẻ đẹp truyền thống và ấm áp. Và màu trắng thể hiện vẻ đẹp hiện đại rất thích hợp với tranh phong cảnh. Không chỉ có các màu riêng lẻ mà những khung tranh còn có sự kết hợp hài hòa giữa chúng, góp phần tạo nên sự phong phú của các mẫu khung tranh đẹp khác nhau.
+
+Khung tranh bằng gỗ mang đậm chất truyền thống. Những người nghệ nhân làm khung tranh thường lựa chọn chất liệu bằng gỗ. Họ thường thiết kế cho những khung tranh truyền thống và điều đó đóng vai trò rất quan trọng trong một tác phẩm nghệ thuật. Trong văn hóa Pháp, những khung tranh bằng gỗ đẹp thường được tạo nên bởi những họa tiết uốn lượn và vô cùng lôi cuốn như khung tranh Baroque. Do đó mà những khung tranh làm bằng chất liệu gỗ thường tạo nên những vẻ đẹp cuốn hút và toát lên giá trị truyền thống. Chất liệu bằng gỗ cũng tạo nên sự chắc chắn và hài hòa với bầu không gian.
+
+Bạn có thể lựa chọn chất liệu khung tranh làm bằng nhựa PS cao cấp, vật liệu này được xem là xu hướng cho các nhà sản xuất khung tranh hiện nay. Những khung tranh nhựa PS có khả năng chống mốc, chống thấm nước cao và đặc biệt là không bị cong vênh trong môi trường có nhiệt độ cao. Không giống như những khung tranh làm bằng gỗ ép hoặc thạch cao rẻ tiền. Khung tranh làm bằng nhựa PS thân thiện với môi trường, có độ cứng thích hợp và lâu bền với thời gian. Nhựa PS cũng cho phép nhà sản xuất tạo ra những mẫu khung đẹp mắt với màu sơn chất lượng nhất.</value>
+  </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

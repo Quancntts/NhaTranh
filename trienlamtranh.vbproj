@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A40272E3-7BA4-44C0-A689-DBD469FF4BDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>trienlamtranh.My.MyApplication</StartupObject>
+    <RootNamespace>trienlamtranh</RootNamespace>
+    <AssemblyName>trienlamtranh</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>trienlamtranh.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>trienlamtranh.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DryIoc, Version=5.4.2.0, Culture=neutral, PublicKeyToken=dfbf2bd50fcf7768, processorArchitecture=MSIL">
+      <HintPath>packages\DryIoc.dll.5.4.2\lib\net45\DryIoc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangKy.Designer.vb">
+      <DependentUpon>DangKy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.Designer.vb">
+      <DependentUpon>GioiThieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhungTranh.Designer.vb">
+      <DependentUpon>KhungTranh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KhungTranh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mua khung.Designer.vb">
+      <DependentUpon>mua khung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mua khung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muakhung2.Designer.vb">
+      <DependentUpon>muakhung2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muakhung2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muakhung3.Designer.vb">
+      <DependentUpon>muakhung3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muakhung3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muakhung4.Designer.vb">
+      <DependentUpon>muakhung4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muakhung4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muakhung5.Designer.vb">
+      <DependentUpon>muakhung5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muakhung5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GioiThieu.resx">
+      <DependentUpon>GioiThieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhungTranh.resx">
+      <DependentUpon>KhungTranh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mua khung.resx">
+      <DependentUpon>mua khung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muakhung2.resx">
+      <DependentUpon>muakhung2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muakhung3.resx">
+      <DependentUpon>muakhung3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muakhung4.resx">
+      <DependentUpon>muakhung4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muakhung5.resx">
+      <DependentUpon>muakhung5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ra-mat-trung-tam-trien-lam-nghe-thuat-dau-tien-trong-cac-truong-nghe-thuat-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04A1D442-FCD1-4B1D-9738-9B6953B640FB-300x300.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CE1BE5AB-F729-4016-B0BC-A90BAC4FD329-300x199.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_7017-300x213.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6DE9D5E0-65AC-4DE5-B60F-9215B7F3BF04-300x199.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20220411_202502-1-300x415.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1649683608340-1-300x209.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20220411_202719-1-300x430.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cua-hang-khung-tranh-385-duong-ngoc-hoi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-mau-nau-be-mat-phang-min-don-gian-va-dep-300x142.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-mau-nau-be-mat-phang-min-don-gian-va-dep-300x1421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-vien-nau-den-hoa-tiet-vang-anh-kim-dep-va-sang-trong-1-300x248.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-go-nhu-vang-sieu-dep-sang-trong-300x200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-co-dien-hoa-tiet-vang-sieu-dep-300x200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-canvas4-300x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung-tranh-mau-nau-gu-hoa-tiet-nhan-be-mat-sieu-dep-300x142.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
