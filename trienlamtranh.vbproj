@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ban.Designer.vb">
+      <DependentUpon>ban.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ban.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DangKy.Designer.vb">
       <DependentUpon>DangKy.vb</DependentUpon>
     </Compile>
@@ -90,6 +96,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gat.Designer.vb">
+      <DependentUpon>gat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gat.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GioiThieu.Designer.vb">
@@ -104,10 +116,58 @@
     <Compile Include="KhungTranh.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="lap.Designer.vb">
+      <DependentUpon>lap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mua khung.Designer.vb">
       <DependentUpon>mua khung.vb</DependentUpon>
     </Compile>
     <Compile Include="mua khung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mua3D.Designer.vb">
+      <DependentUpon>mua3D.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mua3D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mua3D2.Designer.vb">
+      <DependentUpon>mua3D2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mua3D2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mua3D3.Designer.vb">
+      <DependentUpon>mua3D3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mua3D3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muadaquy.Designer.vb">
+      <DependentUpon>muadaquy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muadaquy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muadaquy2.Designer.vb">
+      <DependentUpon>muadaquy2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muadaquy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muadaquy3.Designer.vb">
+      <DependentUpon>muadaquy3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muadaquy3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="muadaquy4.Designer.vb">
+      <DependentUpon>muadaquy4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="muadaquy4.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="muakhung2.Designer.vb">
@@ -149,13 +209,55 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="sen.Designer.vb">
+      <DependentUpon>sen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sua.Designer.vb">
+      <DependentUpon>sua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thu.Designer.vb">
+      <DependentUpon>thu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="thu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tranhdantuong.Designer.vb">
+      <DependentUpon>tranhdantuong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tranhdantuong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TranhDaQy.Designer.vb">
+      <DependentUpon>TranhDaQy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TranhDaQy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xuan.Designer.vb">
+      <DependentUpon>xuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="xuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ban.resx">
+      <DependentUpon>ban.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gat.resx">
+      <DependentUpon>gat.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GioiThieu.resx">
       <DependentUpon>GioiThieu.vb</DependentUpon>
@@ -163,8 +265,32 @@
     <EmbeddedResource Include="KhungTranh.resx">
       <DependentUpon>KhungTranh.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="lap.resx">
+      <DependentUpon>lap.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mua khung.resx">
       <DependentUpon>mua khung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mua3D.resx">
+      <DependentUpon>mua3D.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mua3D2.resx">
+      <DependentUpon>mua3D2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mua3D3.resx">
+      <DependentUpon>mua3D3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muadaquy.resx">
+      <DependentUpon>muadaquy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muadaquy2.resx">
+      <DependentUpon>muadaquy2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muadaquy3.resx">
+      <DependentUpon>muadaquy3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="muadaquy4.resx">
+      <DependentUpon>muadaquy4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="muakhung2.resx">
       <DependentUpon>muakhung2.vb</DependentUpon>
@@ -183,6 +309,24 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sen.resx">
+      <DependentUpon>sen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sua.resx">
+      <DependentUpon>sua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thu.resx">
+      <DependentUpon>thu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tranhdantuong.resx">
+      <DependentUpon>tranhdantuong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranhDaQy.resx">
+      <DependentUpon>TranhDaQy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xuan.resx">
+      <DependentUpon>xuan.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +395,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\khung-tranh-mau-nau-gu-hoa-tiet-nhan-be-mat-sieu-dep-300x142.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\que-huong-300x201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tranh-dan-tuong-3d-van-da-300x188.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1505tdt02.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

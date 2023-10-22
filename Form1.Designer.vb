@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.GiớiThiệuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -147,31 +147,31 @@ Partial Class Form1
         'TranhSơnDầuToolStripMenuItem1
         '
         Me.TranhSơnDầuToolStripMenuItem1.Name = "TranhSơnDầuToolStripMenuItem1"
-        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(175, 22)
         Me.TranhSơnDầuToolStripMenuItem1.Text = "Tranh Sơn Dầu"
         '
         'TranhPhongCảnhToolStripMenuItem
         '
         Me.TranhPhongCảnhToolStripMenuItem.Name = "TranhPhongCảnhToolStripMenuItem"
-        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhPhongCảnhToolStripMenuItem.Text = "Tranh Phong Cảnh"
         '
         'TranhNghệThuậtToolStripMenuItem
         '
         Me.TranhNghệThuậtToolStripMenuItem.Name = "TranhNghệThuậtToolStripMenuItem"
-        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhNghệThuậtToolStripMenuItem.Text = "Tranh Nghệ Thuật"
         '
         'KhungTranhToolStripMenuItem
         '
         Me.KhungTranhToolStripMenuItem.Name = "KhungTranhToolStripMenuItem"
-        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.KhungTranhToolStripMenuItem.Text = "Khung Tranh"
         '
         'TranhDánTườngToolStripMenuItem
         '
         Me.TranhDánTườngToolStripMenuItem.Name = "TranhDánTườngToolStripMenuItem"
-        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhDánTườngToolStripMenuItem.Text = "Tranh Dán Tường"
         '
         'TranhSơnDầuToolStripMenuItem

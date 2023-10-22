@@ -27,54 +27,54 @@ Partial Class KhungTranh
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.gb1 = New System.Windows.Forms.GroupBox()
+        Me.pic1 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.pic3 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.pic5 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.pic4 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.TrangChủToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.pic4 = New System.Windows.Forms.PictureBox()
-        Me.pic5 = New System.Windows.Forms.PictureBox()
-        Me.pic3 = New System.Windows.Forms.PictureBox()
-        Me.pic2 = New System.Windows.Forms.PictureBox()
-        Me.pic1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.gb1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        Me.MenuStrip1.SuspendLayout()
-        CType(Me.pic4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pic5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.pic5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox5.SuspendLayout()
+        CType(Me.pic4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(135, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(162, 33)
+        Me.Label1.Size = New System.Drawing.Size(179, 33)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Khung Tranh"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(135, 50)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(524, 23)
+        Me.Label2.Size = New System.Drawing.Size(546, 23)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Khung Tranh Đẹp, Đóng Khung Giá Rẻ Chất Lượng Cao Nhất"
         '
@@ -102,6 +102,16 @@ Partial Class KhungTranh
         Me.gb1.TabStop = False
         Me.gb1.Text = "Khung tranh màu nâu bề mặt phẳng mịn"
         '
+        'pic1
+        '
+        Me.pic1.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_mau_nau_be_mat_phang_min_don_gian_va_dep_300x142
+        Me.pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pic1.Location = New System.Drawing.Point(42, 24)
+        Me.pic1.Name = "pic1"
+        Me.pic1.Size = New System.Drawing.Size(187, 92)
+        Me.pic1.TabIndex = 6
+        Me.pic1.TabStop = False
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -123,6 +133,16 @@ Partial Class KhungTranh
         Me.GroupBox2.TabIndex = 7
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Khung tranh ánh kim sang trọng"
+        '
+        'pic2
+        '
+        Me.pic2.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_vien_nau_den_hoa_tiet_vang_anh_kim_dep_va_sang_trong_1_300x248
+        Me.pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pic2.Location = New System.Drawing.Point(42, 24)
+        Me.pic2.Name = "pic2"
+        Me.pic2.Size = New System.Drawing.Size(187, 92)
+        Me.pic2.TabIndex = 6
+        Me.pic2.TabStop = False
         '
         'Label4
         '
@@ -146,6 +166,16 @@ Partial Class KhungTranh
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Khung tranh gỗ nhũ vàng đẹp sang trọng"
         '
+        'pic3
+        '
+        Me.pic3.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_go_nhu_vang_sieu_dep_sang_trong_300x200
+        Me.pic3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pic3.Location = New System.Drawing.Point(42, 24)
+        Me.pic3.Name = "pic3"
+        Me.pic3.Size = New System.Drawing.Size(187, 92)
+        Me.pic3.TabIndex = 6
+        Me.pic3.TabStop = False
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -168,6 +198,16 @@ Partial Class KhungTranh
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Khung tranh cỗ điễn đen đẹp"
         '
+        'pic5
+        '
+        Me.pic5.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_co_dien_hoa_tiet_vang_sieu_dep_300x200
+        Me.pic5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pic5.Location = New System.Drawing.Point(43, 15)
+        Me.pic5.Name = "pic5"
+        Me.pic5.Size = New System.Drawing.Size(187, 92)
+        Me.pic5.TabIndex = 6
+        Me.pic5.TabStop = False
+        '
         'Label6
         '
         Me.Label6.AutoSize = True
@@ -189,6 +229,16 @@ Partial Class KhungTranh
         Me.GroupBox5.TabIndex = 7
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Khung tranh cavas bản nhỏ đẹp"
+        '
+        'pic4
+        '
+        Me.pic4.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_mau_nau_gu_hoa_tiet_nhan_be_mat_sieu_dep_300x142
+        Me.pic4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pic4.Location = New System.Drawing.Point(43, 15)
+        Me.pic4.Name = "pic4"
+        Me.pic4.Size = New System.Drawing.Size(187, 92)
+        Me.pic4.TabIndex = 6
+        Me.pic4.TabStop = False
         '
         'Label7
         '
@@ -215,56 +265,6 @@ Partial Class KhungTranh
         Me.TrangChủToolStripMenuItem.Name = "TrangChủToolStripMenuItem"
         Me.TrangChủToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
         Me.TrangChủToolStripMenuItem.Text = "Trang Chủ"
-        '
-        'pic4
-        '
-        Me.pic4.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_mau_nau_gu_hoa_tiet_nhan_be_mat_sieu_dep_300x142
-        Me.pic4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pic4.Location = New System.Drawing.Point(43, 15)
-        Me.pic4.Name = "pic4"
-        Me.pic4.Size = New System.Drawing.Size(187, 92)
-        Me.pic4.TabIndex = 6
-        Me.pic4.TabStop = False
-        '
-        'pic5
-        '
-        Me.pic5.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_co_dien_hoa_tiet_vang_sieu_dep_300x200
-        Me.pic5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pic5.Location = New System.Drawing.Point(43, 15)
-        Me.pic5.Name = "pic5"
-        Me.pic5.Size = New System.Drawing.Size(187, 92)
-        Me.pic5.TabIndex = 6
-        Me.pic5.TabStop = False
-        '
-        'pic3
-        '
-        Me.pic3.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_go_nhu_vang_sieu_dep_sang_trong_300x200
-        Me.pic3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pic3.Location = New System.Drawing.Point(42, 24)
-        Me.pic3.Name = "pic3"
-        Me.pic3.Size = New System.Drawing.Size(187, 92)
-        Me.pic3.TabIndex = 6
-        Me.pic3.TabStop = False
-        '
-        'pic2
-        '
-        Me.pic2.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_vien_nau_den_hoa_tiet_vang_anh_kim_dep_va_sang_trong_1_300x248
-        Me.pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pic2.Location = New System.Drawing.Point(42, 24)
-        Me.pic2.Name = "pic2"
-        Me.pic2.Size = New System.Drawing.Size(187, 92)
-        Me.pic2.TabIndex = 6
-        Me.pic2.TabStop = False
-        '
-        'pic1
-        '
-        Me.pic1.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.khung_tranh_mau_nau_be_mat_phang_min_don_gian_va_dep_300x142
-        Me.pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pic1.Location = New System.Drawing.Point(42, 24)
-        Me.pic1.Name = "pic1"
-        Me.pic1.Size = New System.Drawing.Size(187, 92)
-        Me.pic1.TabIndex = 6
-        Me.pic1.TabStop = False
         '
         'PictureBox1
         '
@@ -298,21 +298,21 @@ Partial Class KhungTranh
         Me.Text = "KhungTranh"
         Me.gb1.ResumeLayout(False)
         Me.gb1.PerformLayout()
+        CType(Me.pic1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        CType(Me.pic5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        CType(Me.pic4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.pic4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pic5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pic1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Tranh vốn là một thú chơi của rất nhiều người, mỗi thời mỗi cách chơi tranh mỗi khác nhau. Một trong những dòng tranh thịnh hành ngày nay đó là tranh dán tường 3D. Đây là một trong những dòng tranh có những ưu điểm vượt trội, về kích thước, hiệu ứng, chủ đề tranh vô cùng đa dạng, được rất nhiều người săn đón và ưa chuộng.
+Trước hết phải kể đến dòng tranh 3D, nó được biết đến và du nhập vào Việt Nam chưa lâu nhưng đã để lại những ấn tượng khó quên trong lòng người xem,nhất là giới trẻ. Nó cuốn hút bởi những ấn tượng như thật vô cùng sống động và chân thực, nó như hiển hiện trước mắt người xem những sự vật đang chuyển động. Đó là những ảo giác sống động như thật mà bạn sẽ có cơ hội được cảm nhận khi chiêm ngưỡng dòng tranh này. Những bức tranh 3D hiện đại có thể đưa bạn đến thế giới khác, đó hẳn sẽ là cuộc phiêu lưu kì thú và ấn tượng nhất.
+Tranh 3D ngày càng phát triển hơn, người ta còn có thể tạo ra những kiểu 3D mang đậm nét truyền thống như tranh ngọc 3D trông như những bức tranh được làm từ ngọc quý giá. Một dòng tranh tạo ra cho không gian những ấn tượng cực kì mạnh đó là tranh cửa sổ 3D, giống như căn nhà của bạn có những cánh cửa sổ lớn mở ra những khung cảnh đẹp hiếm có, nhất là những bức tranh được tạo kỹ xảo đặc biệt.
+Một điều lý thú khi sở hữu những bức tranh dán tường 3D là tranh thường in theo kích thước rất lớn có thể bao quát toàn bộ bức tường trong căn nhà của bạn. Khiến cho không gian trở nên rộng rãi hơn, thực hơn với cảnh ảo trong tranh, góp phần tạo nên một phong cách độc đáo, sang trọng và đẳng cấp cho căn phòng của bạn. Không những có thể dán với những bức tường thẳng đứng, những bức tranh trần xuyên sáng 3D còn ấn tượng hơn khi tạo ra cảm giác như đang ngồi dưới bầu trời trong xanh trong ánh nắng sớm mai sảng khoái.
+Nếu nói về chủ đề tranh dán tường 3D thì tại Bán Tranh bạn có thể lựa chọn đa dạng các chủ đề khác nhau tùy theo sở thích và nhu cầu của mình. Có những chủ đề chủ yếu như tranh phong cảnh thiên nhiên, tranh phong thủy, tranh vũ trụ… nếu bạn là người thích phong cách truyền thống với những hình ảnh của những con vật mang tính phong thủy như rồng, hổ, ngựa, cá,..vv những bông hoa tươi đẹp có nhiều ý nghĩa như hoa sen, hoa hồng, bạn cũng có thoải mái lựa chọn trong 29 chuyên mục trong tranh dán tường 3D của chúng</value>
+  </data>
+</root>
