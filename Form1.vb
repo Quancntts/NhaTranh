@@ -100,4 +100,12 @@
     Private Sub TranhDánTườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TranhDánTườngToolStripMenuItem.Click
         tranhdantuong.Show()
     End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+        tranhhoa.Show()
+    End Sub
+
+    Private Sub TranhHoaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TranhHoaToolStripMenuItem.Click
+        tranhhoa.Show()
+    End Sub
 End Class

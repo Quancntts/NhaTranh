@@ -147,31 +147,31 @@ Partial Class Form1
         'TranhSơnDầuToolStripMenuItem1
         '
         Me.TranhSơnDầuToolStripMenuItem1.Name = "TranhSơnDầuToolStripMenuItem1"
-        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(175, 22)
         Me.TranhSơnDầuToolStripMenuItem1.Text = "Tranh Sơn Dầu"
         '
         'TranhPhongCảnhToolStripMenuItem
         '
         Me.TranhPhongCảnhToolStripMenuItem.Name = "TranhPhongCảnhToolStripMenuItem"
-        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhPhongCảnhToolStripMenuItem.Text = "Tranh Phong Cảnh"
         '
         'TranhNghệThuậtToolStripMenuItem
         '
         Me.TranhNghệThuậtToolStripMenuItem.Name = "TranhNghệThuậtToolStripMenuItem"
-        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhNghệThuậtToolStripMenuItem.Text = "Tranh Nghệ Thuật"
         '
         'KhungTranhToolStripMenuItem
         '
         Me.KhungTranhToolStripMenuItem.Name = "KhungTranhToolStripMenuItem"
-        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.KhungTranhToolStripMenuItem.Text = "Khung Tranh"
         '
         'TranhDánTườngToolStripMenuItem
         '
         Me.TranhDánTườngToolStripMenuItem.Name = "TranhDánTườngToolStripMenuItem"
-        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhDánTườngToolStripMenuItem.Text = "Tranh Dán Tường"
         '
         'TranhSơnDầuToolStripMenuItem
@@ -184,7 +184,7 @@ Partial Class Form1
         'PhậtGiáoToolStripMenuItem
         '
         Me.PhậtGiáoToolStripMenuItem.Name = "PhậtGiáoToolStripMenuItem"
-        Me.PhậtGiáoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PhậtGiáoToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.PhậtGiáoToolStripMenuItem.Text = "Tranh Phật Giáo"
         '
         'TranhHoaToolStripMenuItem

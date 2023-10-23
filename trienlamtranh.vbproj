@@ -170,6 +170,30 @@
     <Compile Include="muadaquy4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Muahoa.Designer.vb">
+      <DependentUpon>Muahoa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Muahoa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muahoa2.Designer.vb">
+      <DependentUpon>Muahoa2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Muahoa2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muahoa3.Designer.vb">
+      <DependentUpon>Muahoa3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Muahoa3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muahoa4.Designer.vb">
+      <DependentUpon>Muahoa4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Muahoa4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="muakhung2.Designer.vb">
       <DependentUpon>muakhung2.vb</DependentUpon>
     </Compile>
@@ -239,6 +263,12 @@
     <Compile Include="TranhDaQy.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="tranhhoa.Designer.vb">
+      <DependentUpon>tranhhoa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tranhhoa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="xuan.Designer.vb">
       <DependentUpon>xuan.vb</DependentUpon>
     </Compile>
@@ -292,6 +322,18 @@
     <EmbeddedResource Include="muadaquy4.resx">
       <DependentUpon>muadaquy4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Muahoa.resx">
+      <DependentUpon>Muahoa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muahoa2.resx">
+      <DependentUpon>Muahoa2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muahoa3.resx">
+      <DependentUpon>Muahoa3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muahoa4.resx">
+      <DependentUpon>Muahoa4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="muakhung2.resx">
       <DependentUpon>muakhung2.vb</DependentUpon>
     </EmbeddedResource>
@@ -324,6 +366,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TranhDaQy.resx">
       <DependentUpon>TranhDaQy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tranhhoa.resx">
+      <DependentUpon>tranhhoa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="xuan.resx">
       <DependentUpon>xuan.vb</DependentUpon>
@@ -416,6 +461,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1505tdt02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tranh-hoa-sen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_9935-300x367.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tranh-hoa-hong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z2706867691834_4262c694a107dd5a62c463079a922060-300x176.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
