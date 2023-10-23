@@ -96,4 +96,8 @@
     Private Sub Label22_Click(sender As Object, e As EventArgs) Handles Label22.Click
         lap.Show()
     End Sub
+
+    Private Sub TranhDánTườngToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TranhDánTườngToolStripMenuItem.Click
+        tranhdantuong.Show()
+    End Sub
 End Class
