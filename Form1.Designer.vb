@@ -73,6 +73,7 @@ Partial Class Form1
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip2.SuspendLayout()
@@ -84,6 +85,7 @@ Partial Class Form1
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -147,31 +149,31 @@ Partial Class Form1
         'TranhSơnDầuToolStripMenuItem1
         '
         Me.TranhSơnDầuToolStripMenuItem1.Name = "TranhSơnDầuToolStripMenuItem1"
-        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(175, 22)
         Me.TranhSơnDầuToolStripMenuItem1.Text = "Tranh Sơn Dầu"
         '
         'TranhPhongCảnhToolStripMenuItem
         '
         Me.TranhPhongCảnhToolStripMenuItem.Name = "TranhPhongCảnhToolStripMenuItem"
-        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhPhongCảnhToolStripMenuItem.Text = "Tranh Phong Cảnh"
         '
         'TranhNghệThuậtToolStripMenuItem
         '
         Me.TranhNghệThuậtToolStripMenuItem.Name = "TranhNghệThuậtToolStripMenuItem"
-        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhNghệThuậtToolStripMenuItem.Text = "Tranh Nghệ Thuật"
         '
         'KhungTranhToolStripMenuItem
         '
         Me.KhungTranhToolStripMenuItem.Name = "KhungTranhToolStripMenuItem"
-        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.KhungTranhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.KhungTranhToolStripMenuItem.Text = "Khung Tranh"
         '
         'TranhDánTườngToolStripMenuItem
         '
         Me.TranhDánTườngToolStripMenuItem.Name = "TranhDánTườngToolStripMenuItem"
-        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhDánTườngToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.TranhDánTườngToolStripMenuItem.Text = "Tranh Dán Tường"
         '
         'TranhSơnDầuToolStripMenuItem
@@ -568,6 +570,16 @@ Partial Class Form1
         Me.Label23.TabIndex = 6
         Me.Label23.Text = "4.000.000 &Đ"
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackgroundImage = Global.trienlamtranh.My.Resources.Resources.qweqewqwqweqweqweqeqeqweqweqeqeqweqweqweqwe
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Location = New System.Drawing.Point(625, 251)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(98, 118)
+        Me.PictureBox9.TabIndex = 3
+        Me.PictureBox9.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
@@ -594,6 +606,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox2)
@@ -618,6 +631,7 @@ Partial Class Form1
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -673,4 +687,5 @@ Partial Class Form1
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents ThoátToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox9 As PictureBox
 End Class

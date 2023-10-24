@@ -63,6 +63,7 @@ Partial Class DangKy
         Me.txtpass.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtpass.Location = New System.Drawing.Point(128, 100)
         Me.txtpass.Name = "txtpass"
+        Me.txtpass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpass.Size = New System.Drawing.Size(295, 26)
         Me.txtpass.TabIndex = 1
         '

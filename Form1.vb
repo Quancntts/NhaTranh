@@ -16,20 +16,20 @@
 
     Private Sub GiớiThiệuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GiớiThiệuToolStripMenuItem.Click
         GioiThieu.Show()
-        Me.Close()
+
     End Sub
 
     Private Sub ThoátToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ThoátToolStripMenuItem.Click
-        Me.Close()
+
     End Sub
 
     Private Sub KhungTranhToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KhungTranhToolStripMenuItem.Click
         KhungTranh.Show()
-        Me.Close()
+
     End Sub
 
     Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
         KhungTranh.Show()
-        Me.Close()
+
     End Sub
 End Class
