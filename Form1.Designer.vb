@@ -74,6 +74,8 @@ Partial Class Form1
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip2.SuspendLayout()
@@ -580,6 +582,28 @@ Partial Class Form1
         Me.PictureBox9.TabIndex = 3
         Me.PictureBox9.TabStop = False
         '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Label24.ForeColor = System.Drawing.Color.Blue
+        Me.Label24.Location = New System.Drawing.Point(650, 372)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(64, 14)
+        Me.Label24.TabIndex = 6
+        Me.Label24.Text = "Phong Canh"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Label25.ForeColor = System.Drawing.Color.Blue
+        Me.Label25.Location = New System.Drawing.Point(640, 386)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(66, 14)
+        Me.Label25.TabIndex = 6
+        Me.Label25.Text = "9.000.000 &Đ"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
@@ -591,6 +615,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label11)
@@ -598,6 +623,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label10)
@@ -688,4 +714,6 @@ Partial Class Form1
     Friend WithEvents Label23 As Label
     Friend WithEvents ThoátToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
 End Class

@@ -32,4 +32,8 @@
         KhungTranh.Show()
 
     End Sub
+
+    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click, Label25.Click
+
+    End Sub
 End Class
