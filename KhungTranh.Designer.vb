@@ -127,7 +127,7 @@ Partial Class KhungTranh
         Me.GroupBox2.Controls.Add(Me.pic2)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(649, 249)
+        Me.GroupBox2.Location = New System.Drawing.Point(649, 281)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(267, 160)
         Me.GroupBox2.TabIndex = 7
@@ -159,9 +159,9 @@ Partial Class KhungTranh
         Me.GroupBox3.Controls.Add(Me.pic3)
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(649, 423)
+        Me.GroupBox3.Location = New System.Drawing.Point(649, 470)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(267, 160)
+        Me.GroupBox3.Size = New System.Drawing.Size(267, 151)
         Me.GroupBox3.TabIndex = 7
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Khung tranh gỗ nhũ vàng đẹp sang trọng"

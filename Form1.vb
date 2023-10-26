@@ -108,4 +108,28 @@
     Private Sub TranhHoaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TranhHoaToolStripMenuItem.Click
         tranhhoa.Show()
     End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        tranhphat.Show()
+    End Sub
+
+    Private Sub PhậtGiáoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PhậtGiáoToolStripMenuItem.Click
+        tranhphat.Show()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+        tranhsondau.Show()
+    End Sub
+
+    Private Sub TranhSơnDầuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TranhSơnDầuToolStripMenuItem.Click
+        tranhsondau.Show()
+    End Sub
+
+    Private Sub TranhPhongCảnhToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles TranhPhongCảnhToolStripMenuItem1.Click
+        tranhphongcanh.Show()
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        tranhphongcanh.Show()
+    End Sub
 End Class

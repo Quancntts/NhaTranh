@@ -133,7 +133,7 @@ Partial Class Form1
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DanhMụcSảnPhẩmToolStripMenuItem, Me.TranhSơnDầuToolStripMenuItem, Me.TranhPhongCảnhToolStripMenuItem1, Me.TranhNghệThuậtToolStripMenuItem1, Me.TranhDánTườngToolStripMenuItem1})
         Me.MenuStrip2.Location = New System.Drawing.Point(131, 27)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(712, 24)
+        Me.MenuStrip2.Size = New System.Drawing.Size(592, 24)
         Me.MenuStrip2.TabIndex = 2
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -190,7 +190,7 @@ Partial Class Form1
         'TranhHoaToolStripMenuItem
         '
         Me.TranhHoaToolStripMenuItem.Name = "TranhHoaToolStripMenuItem"
-        Me.TranhHoaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TranhHoaToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.TranhHoaToolStripMenuItem.Text = "Tranh Hoa"
         '
         'TranhPhongCảnhToolStripMenuItem1
