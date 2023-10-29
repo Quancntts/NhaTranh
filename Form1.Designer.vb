@@ -133,7 +133,7 @@ Partial Class Form1
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DanhMụcSảnPhẩmToolStripMenuItem, Me.TranhSơnDầuToolStripMenuItem, Me.TranhPhongCảnhToolStripMenuItem1, Me.TranhNghệThuậtToolStripMenuItem1, Me.TranhDánTườngToolStripMenuItem1})
         Me.MenuStrip2.Location = New System.Drawing.Point(131, 27)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(592, 24)
+        Me.MenuStrip2.Size = New System.Drawing.Size(712, 24)
         Me.MenuStrip2.TabIndex = 2
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -147,19 +147,19 @@ Partial Class Form1
         'TranhSơnDầuToolStripMenuItem1
         '
         Me.TranhSơnDầuToolStripMenuItem1.Name = "TranhSơnDầuToolStripMenuItem1"
-        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(175, 22)
+        Me.TranhSơnDầuToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.TranhSơnDầuToolStripMenuItem1.Text = "Tranh Sơn Dầu"
         '
         'TranhPhongCảnhToolStripMenuItem
         '
         Me.TranhPhongCảnhToolStripMenuItem.Name = "TranhPhongCảnhToolStripMenuItem"
-        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.TranhPhongCảnhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TranhPhongCảnhToolStripMenuItem.Text = "Tranh Phong Cảnh"
         '
         'TranhNghệThuậtToolStripMenuItem
         '
         Me.TranhNghệThuậtToolStripMenuItem.Name = "TranhNghệThuậtToolStripMenuItem"
-        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.TranhNghệThuậtToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TranhNghệThuậtToolStripMenuItem.Text = "Tranh Nghệ Thuật"
         '
         'KhungTranhToolStripMenuItem

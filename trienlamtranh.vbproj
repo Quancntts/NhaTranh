@@ -85,10 +85,40 @@
     <Compile Include="ban.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Bien.Designer.vb">
+      <DependentUpon>Bien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bien2.Designer.vb">
+      <DependentUpon>Bien2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bien2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bien3.Designer.vb">
+      <DependentUpon>Bien3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bien3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DangKy.Designer.vb">
       <DependentUpon>DangKy.vb</DependentUpon>
     </Compile>
     <Compile Include="DangKy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decumathuat.Designer.vb">
+      <DependentUpon>decumathuat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="decumathuat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decumathuat2.Designer.vb">
+      <DependentUpon>decumathuat2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="decumathuat2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -257,6 +287,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="que.Designer.vb">
+      <DependentUpon>que.vb</DependentUpon>
+    </Compile>
+    <Compile Include="que.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="que2.Designer.vb">
+      <DependentUpon>que2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="que2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="que3.Designer.vb">
+      <DependentUpon>que3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="que3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="sen.Designer.vb">
       <DependentUpon>sen.vb</DependentUpon>
     </Compile>
@@ -299,6 +347,12 @@
     <Compile Include="tranhhoa.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="tranhnghethuat.Designer.vb">
+      <DependentUpon>tranhnghethuat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tranhnghethuat.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="tranhphat.Designer.vb">
       <DependentUpon>tranhphat.vb</DependentUpon>
     </Compile>
@@ -334,8 +388,23 @@
     <EmbeddedResource Include="ban.resx">
       <DependentUpon>ban.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bien.resx">
+      <DependentUpon>Bien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bien2.resx">
+      <DependentUpon>Bien2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bien3.resx">
+      <DependentUpon>Bien3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="decumathuat.resx">
+      <DependentUpon>decumathuat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="decumathuat2.resx">
+      <DependentUpon>decumathuat2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -418,6 +487,15 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="que.resx">
+      <DependentUpon>que.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="que2.resx">
+      <DependentUpon>que2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="que3.resx">
+      <DependentUpon>que3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sen.resx">
       <DependentUpon>sen.vb</DependentUpon>
     </EmbeddedResource>
@@ -426,6 +504,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="thu.resx">
       <DependentUpon>thu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tranhbien.resx">
+      <DependentUpon>tranhbien.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tranhdantuong.resx">
       <DependentUpon>tranhdantuong.vb</DependentUpon>
@@ -436,11 +517,17 @@
     <EmbeddedResource Include="tranhhoa.resx">
       <DependentUpon>tranhhoa.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tranhnghethuat.resx">
+      <DependentUpon>tranhnghethuat.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tranhphat.resx">
       <DependentUpon>tranhphat.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tranhphongcanh.resx">
       <DependentUpon>tranhphongcanh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tranhque.resx">
+      <DependentUpon>tranhque.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tranhsondau.resx">
       <DependentUpon>tranhsondau.vb</DependentUpon>
@@ -578,6 +665,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tranh-phong-canh-bien1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20230918_130150-300x226.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_2987-300x212.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5f2f16abb3a060139816cac106b29d6a-300x368.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04BBB655-0B28-47CF-8DD2-8F785BEB7C68-1-300x226.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E3A457D7-9B4B-44CF-A4AC-3A4C53555795-300x217.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_276328868135734-300x225.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C3B86B78-6320-4931-A873-1417A4020245-300x236.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1688399925405-300x225.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D4F303E1-3E32-49C8-B610-100D6E952FFB-300x372.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1545-e1696424403239-300x298.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

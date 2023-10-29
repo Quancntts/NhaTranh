@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="khung-tranh-co-dien-hoa-tiet-vang-sieu-dep-300x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khung-tranh-co-dien-hoa-tiet-vang-sieu-dep-300x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FB_IMG_1649683608340-1-300x209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FB_IMG_1649683608340-1-300x209.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tải xuống2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tải xuống2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="khung-tranh-vien-nau-den-hoa-tiet-vang-anh-kim-dep-va-sang-trong-1-300x248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khung-tranh-vien-nau-den-hoa-tiet-vang-anh-kim-dep-va-sang-trong-1-300x248.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_7017-300x213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_7017-300x213.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04BBB655-0B28-47CF-8DD2-8F785BEB7C68-1-300x226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04BBB655-0B28-47CF-8DD2-8F785BEB7C68-1-300x226.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tải xuống (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tải xuống (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,14 +136,20 @@
   <data name="khung-tranh-canvas4-300x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khung-tranh-canvas4-300x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tranh-phong-canh-dong-que" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tranh-phong-canh-dong-que.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="E3A457D7-9B4B-44CF-A4AC-3A4C53555795-300x217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E3A457D7-9B4B-44CF-A4AC-3A4C53555795-300x217.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_20220411_202719-1-300x430" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_20220411_202719-1-300x430.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ra-mat-trung-tam-trien-lam-nghe-thuat-dau-tien-trong-cac-truong-nghe-thuat-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ra-mat-trung-tam-trien-lam-nghe-thuat-dau-tien-trong-cac-truong-nghe-thuat-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FB_IMG_1688399925405-300x225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FB_IMG_1688399925405-300x225.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tranh-phong-canh-bien1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tranh-phong-canh-bien1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D4F303E1-3E32-49C8-B610-100D6E952FFB-300x372" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D4F303E1-3E32-49C8-B610-100D6E952FFB-300x372.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tranh-hoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tranh-hoa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +157,8 @@
   <data name="tranh-hoa-sen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tranh-hoa-sen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_7017-300x213" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_7017-300x213.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="04A1D442-FCD1-4B1D-9738-9B6953B640FB-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04A1D442-FCD1-4B1D-9738-9B6953B640FB-300x300.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1505tdt02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1505tdt02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +172,9 @@
   <data name="tải xuống" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tải xuống.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="C3B86B78-6320-4931-A873-1417A4020245-300x236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C3B86B78-6320-4931-A873-1417A4020245-300x236.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CE1BE5AB-F729-4016-B0BC-A90BAC4FD329-300x199" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CE1BE5AB-F729-4016-B0BC-A90BAC4FD329-300x199.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -174,6 +186,9 @@
   </data>
   <data name="20230414_111000-300x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20230414_111000-300x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5f2f16abb3a060139816cac106b29d6a-300x368" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5f2f16abb3a060139816cac106b29d6a-300x368.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tranh-hoa-hong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tranh-hoa-hong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,20 +208,32 @@
   <data name="que-huong-300x201" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\que-huong-300x201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="khung-tranh-co-dien-hoa-tiet-vang-sieu-dep-300x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khung-tranh-co-dien-hoa-tiet-vang-sieu-dep-300x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20230918_130150-300x226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20230918_130150-300x226.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ra-mat-trung-tam-trien-lam-nghe-thuat-dau-tien-trong-cac-truong-nghe-thuat-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ra-mat-trung-tam-trien-lam-nghe-thuat-dau-tien-trong-cac-truong-nghe-thuat-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="04A1D442-FCD1-4B1D-9738-9B6953B640FB-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04A1D442-FCD1-4B1D-9738-9B6953B640FB-300x300.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="khung-tranh-vien-nau-den-hoa-tiet-vang-anh-kim-dep-va-sang-trong-1-300x248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khung-tranh-vien-nau-den-hoa-tiet-vang-anh-kim-dep-va-sang-trong-1-300x248.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FB_IMG_1681549206000-1-300x306" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FB_IMG_1681549206000-1-300x306.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tranh-phong-canh-dong-que" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tranh-phong-canh-dong-que.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="khung-tranh-mau-nau-be-mat-phang-min-don-gian-va-dep-300x1421" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khung-tranh-mau-nau-be-mat-phang-min-don-gian-va-dep-300x1421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_2987-300x212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_2987-300x212.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="6DE9D5E0-65AC-4DE5-B60F-9215B7F3BF04-300x199" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6DE9D5E0-65AC-4DE5-B60F-9215B7F3BF04-300x199.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,16 +250,19 @@
   <data name="khung-tranh-go-nhu-vang-sieu-dep-sang-trong-300x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khung-tranh-go-nhu-vang-sieu-dep-sang-trong-300x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FB_IMG_1681549206000-1-300x306" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FB_IMG_1681549206000-1-300x306.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="inbound796123752420946602-300x373" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inbound796123752420946602-300x373.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="khung-tranh-mau-nau-gu-hoa-tiet-nhan-be-mat-sieu-dep-300x142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khung-tranh-mau-nau-gu-hoa-tiet-nhan-be-mat-sieu-dep-300x142.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FB_IMG_1649683608340-1-300x209" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FB_IMG_1649683608340-1-300x209.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="received_276328868135734-300x225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\received_276328868135734-300x225.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tranh-phong-canh-bien1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tranh-phong-canh-bien1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_1545-e1696424403239-300x298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_1545-e1696424403239-300x298.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
